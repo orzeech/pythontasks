@@ -2,11 +2,13 @@ def print_hi(name):
     print('argument is ', name)
     return ' '.join(['Hello', name, name, name, name])
 
+
 def list_operations():
     my_list = ['a', 'b', 'c']
     my_list.append('cokolwiek')
     length = len(my_list)
     print(length)
+
     for s in my_list:
         print(s)
         for i in range(50):
