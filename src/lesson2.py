@@ -17,5 +17,5 @@ def read_line_by_line(filename):
 
 
 if __name__ == '__main__':
-    print(read_content_from_file('whatever.txt'))
-    read_line_by_line('whatever.txt')
+    print(read_content_from_file('../whatever.txt'))
+    read_line_by_line('../whatever.txt')
