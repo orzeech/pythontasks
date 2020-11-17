@@ -11,11 +11,21 @@ def read_content_from_file(filename):
 
 
 def read_line_by_line(filename):
-    with open(filename, 'r', encoding='utf-8') as line_by_line_stream:
-        for line in line_by_line_stream:
+    with open(filename, 'r', encoding='utf-8') as stream:
+        for line in stream:
             print(line)
 
 
+def read_line_by_line2(filename):
+    stream = open(filename, 'r', encoding='utf-8')
+    try:
+        for line in stream:
+            print(line)
+    finally:
+        stream.close()
+
+
 if __name__ == '__main__':
-    print(read_content_from_file('../whatever.txt'))
-    read_line_by_line('../whatever.txt')
+    # print(read_content_from_file('../whatever.txt'))
+    # read_line_by_line('../whatever.txt')
+    read_line_by_line2('../whatever.txt')
