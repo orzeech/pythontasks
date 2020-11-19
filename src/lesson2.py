@@ -9,11 +9,14 @@ def read_content_from_file(filename):
         stream.close()
     return content
 
+def get_line(line):
+    return lambda l: "Printing line " + line
+
 
 def read_line_by_line(filename):
     with open(filename, 'r', encoding='utf-8') as stream:
         for line in stream:
-            print(line)
+            print(get_line(line))
 
 
 def read_line_by_line2(filename):
@@ -27,5 +30,5 @@ def read_line_by_line2(filename):
 
 if __name__ == '__main__':
     # print(read_content_from_file('../whatever.txt'))
-    # read_line_by_line('../whatever.txt')
-    read_line_by_line2('../whatever.txt')
+    read_line_by_line('../whatever.txt')
+    # read_line_by_line2('../whatever.txt')
