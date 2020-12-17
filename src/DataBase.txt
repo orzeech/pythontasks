@@ -1,0 +1,29 @@
+1:Karol jest sympatyczny!
+2:Kamil:jest wredny....
+3:Marcin jest sympatyczny, ale niegrzeczny.
+4:ćłćł
+5:Michał lubi spać.
+6:Brown sugar
+7:Biscuits
+8:Orange juice
+9:Chocolate
+10:Brown sugar
+11:Biscuits
+12:Orange juice
+13:Chocolate
+14:Brown sugar
+15:Biscuits
+16:Orange juice
+17:Chocolate
+18:Brown sugar
+19:Biscuits
+20:Orange juice
+21:Chocolate
+22:Brown sugar
+23:Biscuits
+24:Orange juice
+25:Chocolate
+26:Brown sugar
+27:Biscuits
+28:Orange juice
+29:Chocolate
